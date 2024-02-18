@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 1600px;
+    height: 900px;
+    background: linear-gradient(rgba(237, 164, 24, 1), 80%, rgba(237, 164, 24, 0))
+}
+.rectangle {
+    width: 50px;
+    height: 57px;
+    position: relative;
+    left: 133px;
+    top: 105px;
+    background-color: rgba(49, 38, 38, 1);
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.rectangle::after {
+    content: '';
+    position: absolute;
+    bottom: 9px;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-top-color: rgba(49, 38, 38, 1);
+    border-bottom: 0;
+    margin-left: -13px;
+    margin-bottom: -13px;
+    border-radius: 15px;
+  }
+
+.rectangle-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.57px;
+    width: 66px;
+    height: 56.2px;
+    position: absolute;
+    padding-top: 13px;
+    padding-left: 5px;
+}
+
+.rectangle-logo {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
+    left: 140px;
+    top: 89px;
+}
+.navigation {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 650px;
+    padding-top: 40px;
+}
+.navigation-title-home {
+    font-weight: 700;
+    width: 151.5px;
+    height: 37.47px;
+    color: black;
+    padding-top: 20px;
+}
+.navigation-title {
+    font-weight: 500;
+    width: 151.5px;
+    height: 37.47px;
+    color: black;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.navigation-button {
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 100px;
+    border: none;
+    margin-left: 60px;
+}
+.navigation-button-image {
+    width: 48px;
+    border-radius: 100px;
+    margin-right: 4px;
+}
+.container-header {
+    display: flex;
+}
+.header-list {
+    width: 600px;
+}
+.header-title-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 133px;
+    margin-top: 280px;
+    width: 572px;
+    display: block;
+}
+.header-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-left: 133px;
+    margin-top: 60px;
+    width: 572px;
+    display: block;
+}
+.header-button {
+    margin-left: 133px;
+    background-color: red;
+    width: 180.86px;
+    height: 60px;
+    margin-top: 60px;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: white;
+    display: block;
+}
+.header-image {
+    width: 900px;
+    height: 690px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+main {
+    width: 1600px;
+    height: 900px;
+}
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 87px;
+}
+.menu {
+    margin-top: 50px;
+    margin-right: 31px;
+}
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 700px;
+}
+.menu-image {
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer {
+    width: 1600px;
+    height: 450px;
+    background: linear-gradient(rgba(237, 164, 24, 0), 70%, rgba(237, 164, 24, 1));
+    text-align: center;
+}
+.footer-link {
+    display: flex;
+    gap: 100px;
+    margin-left: 279px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 160px;
+}
+.link {
+    color: black;
+}
+.link_active {
+    font-weight: 600;
+    color: black;
+}
+.footer-info {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.info {
+    padding-top: 15px;
+}
+.footer-contacts {
+    display: flex;
+    justify-content: center;
+}
+.contact-image-vk {
+    width: 50px;
+    height: 50px;
+    margin-top: 23px;
+}
+.contact-image {
+    width: 57.5px;
+    height: 57.5px;
+    margin-top: 20px;
+}
